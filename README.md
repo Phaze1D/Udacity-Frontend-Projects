@@ -4,4 +4,4 @@
 ### Projects
 
 1. [Mockup to Article](/Project1-MockUp/)
-
+2. [Animal Trading Cards](/Project2-AnimalCards/)
