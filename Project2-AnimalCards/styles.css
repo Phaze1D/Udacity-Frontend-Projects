@@ -1,47 +1,43 @@
 
-img{
+img {
   width: 300px;
   height: 200px;
   margin: 0 0 15px;
 }
 
-body{
+body {
   font-size: 15px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
 }
 
-.label{
+.label {
   font-weight: bold;
 }
 
-.border-box{
+.border-box {
   padding: 0 10px 10px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
   border-radius: 3px;
   background-color: #fff;
 }
 
-.card{
-  /*
-    box-sizing: border-box;
-    width: 322px;
-  */
-  box-sizing: content-box; /* Using content-box for this means I dont have to worry about padding */
+.card {
+  box-sizing: content-box;
   width: 300px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
-.title{
+.title {
   font-size: 24px;
   margin: 18px 0;
   padding: 5px 0;
 }
 
-.italic{
+.italic {
   font-style: italic;
 }
