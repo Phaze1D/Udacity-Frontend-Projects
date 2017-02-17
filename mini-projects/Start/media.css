@@ -22,14 +22,15 @@
   }
 
   .nav {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 256px;
     left: 0;
     top: 0;
     z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     background-color: white;
-    transform: translate(-100%, 0);
+    transform: translate(-110%, 0);
     transition: transform .35s;
   }
 
