@@ -7,9 +7,9 @@ body, html {
 
 body {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 13px;
   color: #424242;
-  padding-top: 105px;
+  padding-top: 85px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -78,7 +78,7 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 4em;
+  font-size: 3em;
   margin: 0.5em 0.25em;
   display: inline-block;
   color: #212121;
@@ -167,7 +167,7 @@ main {
   float: left;
   width: 100%;
   position: relative;
-  background-image: url("./images/dog.jpg");
+  background-image: url("./images/dog-md.jpg");
   background-size: cover;
   height: 300px;
 }
@@ -349,14 +349,47 @@ main {
 }
 
 .snippet {
+  display: flex;
   clear: both;
   margin: 24px 0;
+  font-size: 13px;
+}
+
+.snippet p {
+ max-width: 100%;
+ overflow: hidden;
+ position: relative;
+ line-height: 1.2em;
+ max-height: 3.6em;
+ text-align: justify;
+ margin-right: -1em;
+}
+
+.snippet p:before {
+  content: '...';
+  position: absolute;
+  background-color: white;
+  font-size: 1.3em;
+  padding: 0 2px 0.2em;
+  right: -1px;
+  bottom: -1px;
+}
+/* hide ... if we have text, which is less than or equal to max lines */
+.snippet p:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
 }
 
 .snippet__thumbnail {
-  width: 100px;
-  float: left;
+  width: 150px;
+  height: 100px;
   margin-right: 1em;
+  flex-shrink: 0;
 }
 
 .snippet__title {
@@ -366,7 +399,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
-  padding: 1.5em;
+  padding: 1.5em 0;
 }
 
 .snippet__title a:hover,

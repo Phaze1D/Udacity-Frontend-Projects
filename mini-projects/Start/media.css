@@ -10,7 +10,7 @@
 */
 @media (max-width: 580px) {
   .header__title {
-    font-size: 21px;
+    font-size: 2em;
   }
 
   .header__logo {
@@ -40,6 +40,10 @@
 
   .nav__item {
     display: block;
+  }
+
+  .snippet__thumbnail {
+    display: none;
   }
 }
 
@@ -100,5 +104,24 @@
   .nav, main {
     max-width: 1000px;
     margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 490px) {
+  .hero {
+    background-image: url("./images/dog-sm.jpg");
+  }
+}
+
+@media (min-width: 490px) and (max-width: 580px) {
+  .hero {
+    background-image: url("./images/dog-md.jpg");
+  }
+}
+
+@media (min-width: 580px) and (max-width: 710px) {
+  .hero {
+    background-image: url("./images/dog-lg.jpg");
   }
 }
