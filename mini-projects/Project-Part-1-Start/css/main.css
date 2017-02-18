@@ -1,0 +1,74 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 15px;
+}
+
+article {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+h1 {
+ text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  display: flex;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 25px 0;
+  text-align: right;
+  border-top: 1px solid #BDBDBD;
+}
+
+p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+figcaption {
+  color: #9E9E9E;
+}
+
+.social-media{
+  flex-grow: 1;
+  text-align: right;
+}
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  width: 2em;
+}
+
+
+@media(max-width: 510px) {
+  figure {
+    margin: 0 0;
+  }
+}
