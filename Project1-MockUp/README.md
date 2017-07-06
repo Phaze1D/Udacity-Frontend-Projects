@@ -6,14 +6,6 @@ This project is about creating an HTML replica of a PDF file. It is meant to sim
 ## Usage
 You can view the pdf that needs to be replicated [here](blog-mockup.pdf), and you can view my results by opening [index.html](index.html) file in your browser
 
-
-#### PDF File Screenshot
-<p align="center">
-	<img src="readme_imgs/pdf.jpg" height="500px"/>
-</p>
-
-
-#### HTML Result
-<p align="center">
-	<img src="readme_imgs/html.jpg" height="500px"/>
-</p>
+| PDF  | HTML |
+|----|----|
+| <img src="readme_imgs/pdf.jpg" height="500px"/> |  <img src="readme_imgs/html.jpg" height="500px"/>    |
